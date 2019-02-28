@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b7ba71-9b25-4d70-83b3-ddbec437a8fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../model-training/text-classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/../model-training/text-classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer_complaints/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/consumer_complaints/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_api/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine_learning_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine_learning_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tutorial/snippets/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tutorial/snippets/serializers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,20 +19,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/machine_learning_api/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="221">
+              <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer_complaints/urls.py">
+        <entry file="file://$PROJECT_DIR$/machine_learning_api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="174">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer_complaints/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+            <state>
+              <caret selection-end-line="2" selection-end-column="40" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -47,30 +47,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer_complaints/models.py">
+        <entry file="file://$PROJECT_DIR$/chatbot/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="34">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer_complaints/services.py">
+        <entry file="file://$PROJECT_DIR$/chatbot/services.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="187">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../model-training/text-classifier.py">
+        <entry file="file://$PROJECT_DIR$/chatbot/Chatbot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="177">
+              <caret line="42" column="118" selection-start-line="42" selection-start-column="118" selection-end-line="42" selection-end-column="118" />
               <folding>
-                <element signature="e#134#153#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chatbot/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,19 +109,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/consumer_complaints/urls.py" />
-        <option value="$PROJECT_DIR$/machine_learning_api/urls.py" />
-        <option value="$PROJECT_DIR$/machine_learning_api/settings.py" />
         <option value="$PROJECT_DIR$/consumer_complaints/models.py" />
         <option value="$PROJECT_DIR$/consumer_complaints/Serializers.py" />
         <option value="$PROJECT_DIR$/consumer_complaints/views.py" />
         <option value="$PROJECT_DIR$/../model-training/text-classifier.py" />
         <option value="$PROJECT_DIR$/consumer_complaints/services.py" />
+        <option value="$PROJECT_DIR$/machine_learning_api/settings.py" />
+        <option value="$PROJECT_DIR$/consumer_complaints/urls.py" />
+        <option value="$PROJECT_DIR$/chatbot/urls.py" />
+        <option value="$PROJECT_DIR$/machine_learning_api/urls.py" />
+        <option value="$PROJECT_DIR$/chatbot/views.py" />
+        <option value="$PROJECT_DIR$/chatbot/services.py" />
+        <option value="$PROJECT_DIR$/chatbot/Chatbot.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
+    <option name="x" value="27" />
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
@@ -118,6 +140,27 @@
           <expand>
             <path>
               <item name="machine_learning_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning_api" type="462c0819:PsiDirectoryNode" />
+              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning_api" type="462c0819:PsiDirectoryNode" />
+              <item name="chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning_api" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer_complaints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine_learning_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine_learning_api" type="462c0819:PsiDirectoryNode" />
               <item name="machine_learning_api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -157,10 +200,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="0" width="1260" height="640" extended-state="0" />
+    <frame x="18" y="0" width="1260" height="640" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24938676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24938676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -173,7 +216,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32874015" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32874015" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32874015" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -183,40 +226,17 @@
     <entry file="file://$PROJECT_DIR$/consumer_complaints/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning_api/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_complaints/Serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer_complaints/Serializers.py" />
     <entry file="file://$PROJECT_DIR$/consumer_complaints/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_complaints/urls.py">
+    <entry file="file://$PROJECT_DIR$/../model-training/text-classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="463">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#134#153#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/machine_learning_api/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -227,29 +247,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chatbot/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_api/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="56" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer_complaints/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/machine_learning_api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer_complaints/services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatbot/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/consumer_complaints/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="40" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_complaints/services.py">
+    <entry file="file://$PROJECT_DIR$/chatbot/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../model-training/text-classifier.py">
+    <entry file="file://$PROJECT_DIR$/chatbot/services.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
-            <element signature="e#134#153#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatbot/Chatbot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="42" column="118" selection-start-line="42" selection-start-column="118" selection-end-line="42" selection-end-column="118" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>

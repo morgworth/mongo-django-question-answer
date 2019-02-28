@@ -17,4 +17,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', include('consumer_complaints.urls')),
+    path('bot/', include('chatbot.urls')),
 ]
