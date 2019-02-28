@@ -33,5 +33,8 @@ tfidf_transformer = TfidfTransformer()
 X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
 clf = LinearSVC().fit(X_train_tfidf, y_train)
 
-f = open("serialized_model.pkl","wb")
-pickle.dump(clf,f)
+f1 = open("serialized_model.pkl","wb")
+pickle.dump(clf,f1)
+
+f2 = open("serialized_vectorizer.pkl","wb")
+pickle.dump(count_vect,f2)
