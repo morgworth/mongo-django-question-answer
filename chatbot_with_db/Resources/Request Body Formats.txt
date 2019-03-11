@@ -1,0 +1,9 @@
+Request Body Formats for Chatbot-with-db
+
+Question:
+{
+  "question": "I have forgotten my password. What can I do?",
+  "answer": "You can reset your password. The link to do so should be under the login prompt.",
+  "keywords": "log account password username",
+  "category": "account"
+}
